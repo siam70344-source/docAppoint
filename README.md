@@ -1,16 +1,41 @@
-# React + Vite
+# DocAppoint — Doctor Appointment Booking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, full-stack doctor appointment booking platform built for Bangladesh's healthcare needs.
 
-Currently, two official plugins are available:
+🌐 **Live Site:** [https://docappoint-client.vercel.app](https://docappoint-client.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🔐 **Secure Authentication** — Email/password and Google login powered by Firebase with JWT-based session management
+- 🩺 **Browse Expert Doctors** — Explore verified specialists across cardiology, neurology, dermatology and more with ratings and availability
+- 📅 **Instant Appointment Booking** — Book appointments in under 2 minutes with real-time confirmation
+- 📋 **Personal Dashboard** — Manage all your bookings — view, update, and cancel appointments anytime
+- 🔍 **Smart Doctor Search** — Search doctors by name across all specialties instantly
+- 👤 **Profile Management** — Update your personal information and profile photo anytime
+- 📱 **Fully Responsive** — Seamless experience across mobile, tablet, and desktop devices
+- ⭐ **Doctor Reviews** — Read and leave reviews for doctors after your appointment
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+**Frontend:**
+- React 19 + Vite
+- Tailwind CSS v4
+- React Router DOM v7
+- Firebase Authentication
+- Axios
+- React Hot Toast
+- Swiper.js
+- Framer Motion
+- React Helmet Async
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Backend:**
+- Node.js + Express
+- MongoDB + Mongoose
+- JSON Web Token (JWT)
+- Cookie Parser
+- CORS
+
+## 📦 Installation
+
+### Client
+```bash
