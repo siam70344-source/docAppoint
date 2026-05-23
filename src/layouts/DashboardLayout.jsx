@@ -22,7 +22,7 @@ const DashboardLayout = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 flex">
-      {/* Sidebar */}
+      {/* Sidebars */}
       <aside
         className={`fixed inset-y-0 left-0 z-50 w-64 bg-dark-800 text-white transform transition-transform duration-300
           ${sidebarOpen ? "translate-x-0" : "-translate-x-full"} lg:relative lg:translate-x-0`}
