@@ -80,7 +80,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
 
-          {/* Right — feature grid */}
+          {/* Right feature grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {features.map((feature) => {
               const Icon = feature.icon;
