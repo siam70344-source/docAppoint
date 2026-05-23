@@ -62,7 +62,7 @@ const Stats = () => {
       className="py-20 relative overflow-hidden"
       style={{ background: "linear-gradient(135deg, #0c744f 0%, #0d9260 50%, #0b4c35 100%)" }}
     >
-      {/* Decorative circles */}
+      {/* Decorative circles era */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2" />
       <div className="absolute bottom-0 left-0 w-48 h-48 bg-white/5 rounded-full translate-y-1/2 -translate-x-1/2" />
 
