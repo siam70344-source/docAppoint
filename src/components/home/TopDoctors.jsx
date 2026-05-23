@@ -46,7 +46,7 @@ const TopDoctors = () => {
           </div>
         )}
 
-        {/* View all button */}
+        {/* View all buttons */}
         <div className="text-center mt-10">
           <Link
             to="/appointments"
