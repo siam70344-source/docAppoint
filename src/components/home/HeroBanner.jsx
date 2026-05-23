@@ -109,7 +109,7 @@ const HeroBanner = () => {
         ))}
       </Swiper>
 
-      {/* Stats bar */}
+      {/* Stats bar system*/}
       <div className="relative z-20 max-w-4xl mx-auto px-4 -mt-16">
         <div className="bg-white rounded-2xl shadow-xl p-6 grid grid-cols-3 gap-4">
           {stats.map((stat, i) => (
