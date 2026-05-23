@@ -54,7 +54,7 @@ export const AuthProvider = ({ children }) => {
             { withCredentials: true }
           );
         } catch {
-          // silent
+          
         }
       }
 
