@@ -86,7 +86,7 @@ const HeroBanner = () => {
                     {slide.desc}
                   </p>
 
-                  {/* Buttons */}
+                  {/* Buttons co */}
                   <div className="flex flex-wrap gap-4">
                     <Link
                       to="/appointments"
