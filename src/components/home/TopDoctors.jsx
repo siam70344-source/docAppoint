@@ -22,7 +22,7 @@ const TopDoctors = () => {
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        {/* Header */}
+        {/* Header section */}
         <div className="text-center mb-12">
           <span className="inline-block bg-primary-100 text-primary-700 text-xs font-semibold px-4 py-1.5 rounded-full mb-3 uppercase tracking-wider">
             Top Rated
