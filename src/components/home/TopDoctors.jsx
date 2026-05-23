@@ -35,7 +35,7 @@ const TopDoctors = () => {
           </p>
         </div>
 
-        {/* Cards */}
+        {/* Cards section */}
         {loading ? (
           <Spinner />
         ) : (
