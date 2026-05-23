@@ -7,12 +7,12 @@ const statsData = [
   { icon: FiCalendar, value: 1000, suffix: "+", label: "Appointments Booked", color: "text-purple-500"  },
   { icon: FiStar,     value: 15,   suffix: "+", label: "Specialties",         color: "text-amber-500"   },
 ];
-// goods
+// goodss
 const useCountUp = (end, duration = 2000, start = false) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    if (!start) return;
+    if (!start) return; 
     let startTime = null;
     const step = (timestamp) => {
       if (!startTime) startTime = timestamp;
